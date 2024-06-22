@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  margin: 0 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "poppins", Plus Jakarta Sans;
+  padding-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(113, 106, 113, 0.2);
+  gap: 400px;
+  position: fixed;
+  top: 0;
+  padding: 4px 12px;
+  left: 0;
+  right: 0;
+  height: 70px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  z-index: 99;
+}
+.Logo img {
+  width: 170px;
+  height: 50px;
+}
+
+.logIn {
+  text-decoration: none;
+  background-color: rgb(46, 187, 119);
+  color: #2e3132b5;
+  padding: 10px 26px 10px 26px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 7px;
+  align-self: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.logIn:hover {
+  background-color: rgb(38, 41, 40);
+  color: #e2e9ebfd;
+}
+
+.form-fild {
+  width: 370px;
+  padding: 15px 15px;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  height: 470px;
+  border: 2px solid #2e3132b5;
+}
+
+.form-header h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  pointer-events: none;
+  user-select: none;
+}
+.formSect {
+  width: 100%;
+  height: 100%;
+}
+.formSect .input-sect label {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.formSect .input-sect input {
+  width: 97%;
+  border: none;
+  border-bottom: 1px solid #2e3132b5;
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  padding: 0 0 0 10px;
+  font-weight: 500;
+}
+
+.footer-form a {
+  text-decoration: underline;
+  color: rgb(15, 48, 34);
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 12px;
+  text-align: center;
+}
+
+.footer-form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer-form span {
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+}

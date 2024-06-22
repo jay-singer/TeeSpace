@@ -1,0 +1,201 @@
+.heading {
+  background: #fff;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+.heading .upper-title {
+  background: linear-gradient(270deg, #dbf4e2 6.75%, #f6fdec 98.85%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+}
+.heading .upper-title h3 {
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 700;
+  color: #000000;
+}
+.heading .upper-title .button {
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 25px;
+  background-color: #fff;
+  height: 32px;
+  width: 100px;
+  padding: 5px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border: none;
+  transition: background 0.45s, color 0.45s;
+}
+.heading .upper-title .button:hover {
+  background: #2ebb77;
+  color: #ffffff;
+}
+.heading .upper-title .button:active {
+  opacity: 0.8;
+}
+.nav {
+  height: 99px;
+  display: flex;
+  align-items: center;
+}
+.nav .log1 {
+  text-align: left;
+  margin-left: 13px;
+  width: 150px;
+}
+.nav .nav-title {
+  width: 850px;
+  display: flex;
+  justify-content: end;
+}
+.nav .nav-title input {
+  position: relative;
+  display: flex;
+  background-color: rgb(245, 244, 244);
+  flex: 1;
+  padding-left: 12px;
+  width: 100%;
+  margin: 0;
+  padding-right: 1px;
+  padding-right: 13px;
+  align-items: center;
+  height: 25px;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  width: 90px;
+  &::placeholder {
+    font-size: 15px;
+    font-family: Plus Jakarta Sans;
+    text-align: start;
+  }
+}
+.nav .nav-title {
+  display: flex;
+  justify-content: end;
+  margin-left: 50px;
+  gap: 15px;
+}
+.nav .nav-title a {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18.9px;
+  color: #000000;
+  text-align: center;
+}
+
+.nav .nav-title a:first-child {
+  color: #2ebb77;
+}
+.nav .nav-title a ion-icon {
+  margin-top: 3px;
+  width: 15px;
+  height: 19px;
+  font-weight: 700;
+}
+.nav .nav-title .search-btn {
+  display: flex;
+  width: 140px;
+  position: relative;
+}
+.search {
+  position: absolute;
+  width: 20px;
+  left: 105px;
+  overflow: hidden;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  margin-left: 8px;
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-right: 4px;
+  margin-top: 3px;
+  z-index: 100;
+  cursor: pointer;
+  background-color: rgb(245, 244, 244);
+}
+.nav .nav-biside {
+  display: flex;
+  flex: 629px;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-biside ion-icon {
+  font-size: 20px;
+  background-color: #e3e3e3;
+  padding: 13px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.nav-biside .command {
+  margin-right: 30px;
+  position: relative;
+}
+.nav-biside span {
+  background-color: #2ebb77;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 15px;
+  align-items: center;
+  font-size: 15px;
+  position: absolute;
+  right: -5px;
+  top: -1px;
+}
+.nav-biside ul li:first-child {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  color: #9b9b9b;
+}
+.nav-biside ul li:last-child {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  line-height: 32px;
+  margin-right: 15px;
+}
+
+.nav-biside .button {
+  margin-right: 18px;
+  text-decoration: none;
+  left: 30px;
+  width: 100px;
+  padding: 10px 0;
+  border-radius: 12px;
+  background-color: #000000;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  font-size: 15px;
+  color: #ffffff;
+}
