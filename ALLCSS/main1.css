@@ -625,17 +625,19 @@
   background-color: #2ebb77;
   padding: 13px 20px;
   border-radius: 13px;
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  gap: 5px;
   text-align: center;
   color: white;
   border: none;
   & span {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    align-self: end;
+
     color: white;
-    margin-left: 2px;
+
+    display: flex;
+    justify-self: start;
   }
 }
 .customize-product {
@@ -1189,14 +1191,16 @@
   & input {
     margin-top: 20px;
     padding: 20px;
+    padding-right: 30px;
+    outline: none;
     position: relative;
     text-align: start;
-    border-radius: 12px;
+    border-radius: 30px;
     border: 1px solid #ffffff;
-    background: #ffffff;
+    background-color: rgba(210, 210, 210, 0.6);
     width: 300px;
     height: 56px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 14px;
     text-align: left;
@@ -1205,15 +1209,18 @@
   & span {
     position: absolute;
     bottom: 47px;
-    right: 42px;
-    font-size: 20px;
+    right: 56px;
+    font-size: 17px;
     color: #000000;
     padding: 4px 3px 1px 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-weight: 400;
     text-align: center;
+    background-color: transparent;
     overflow: hidden;
-    z-index: 1;
-    background: #ffffff;
+    z-index: 100;
+
     cursor: pointer;
   }
 }
